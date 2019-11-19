@@ -6,7 +6,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.scene.shape.Circle;
 
-import java.awt.event.ActionEvent;
+import javafx.event.ActionEvent;
 
 
 public class CirclePane extends GridPane {
@@ -24,7 +24,7 @@ public class CirclePane extends GridPane {
 
         radiusInput = new TextField();
         radiusInput.setFont(font);
-        radiusInput.setPrefWidth(30);
+        radiusInput.setPrefWidth(50);
         radiusInput.setAlignment(Pos.CENTER);
         radiusInput.setOnAction(this::processReturn);
 
